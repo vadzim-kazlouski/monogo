@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="monogo" translate="label" sortOrder="10" class="mageplaza-extensions">
+            <label>Monogo</label>
+        </tab>
+        <section id="monogo" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Monogo</label>
+            <tab>monogo</tab>
+            <resource>Vadimk_Monogo::configuration</resource>
+            <group id="synchronization" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Synchronization Settings</label>
+                <field id="default_product_count" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Default Product Count</label>
+                    <comment>Enter the default product count for synchronization, put 0 or leave empty for all products</comment>
+                </field>
+            </group>
+            <group id="qr_code" translate="label" type="text" sortOrder="20" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>QR Code Settings</label>
+                <field id="url" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Service URL</label>
+                    <comment>Enter the URL for QR code service generator</comment>
+                </field>
+                <field id="username" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Username</label>
+                    <comment>Enter the username for basic authorization</comment>
+                </field>
+                <field id="password" translate="label" type="obscure" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Password</label>
+                    <comment>Enter the password for basic authorization</comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

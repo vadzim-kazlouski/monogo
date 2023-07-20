@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <monogo>
+            <synchronization>
+                <default_product_count>10</default_product_count>
+            </synchronization>
+            <qr_code>
+                <url>https://www.de-vis-software.ro/qrcodeme.aspx</url>
+            </qr_code>
+        </monogo>
+    </default>
+</config>

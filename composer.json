@@ -1,0 +1,24 @@
+{
+    "name": "vadimk/monogo",
+    "description": "Monogo module for Magento 2 for updating attributes",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Vadzim Kazlouski",
+            "email": "vadzim.kazlouski.it@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Vadimk\\Monogo\\": ""
+        }
+    },
+    "require": {
+        "php": "~7.3||~7.4||~8.0",
+        "magento/framework": "^101|^102|^103|^104"
+    }
+}

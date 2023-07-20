@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.main">
+            <block class="Vadimk\Monogo\Block\Catalog\Product\View\QRCode"
+                   name="qr_code"
+                   template="Vadimk_Monogo::product/view/qr_code.phtml"/>
+        </referenceBlock>
+    </body>
+</page>
