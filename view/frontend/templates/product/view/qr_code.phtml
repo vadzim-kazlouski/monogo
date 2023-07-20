@@ -1,0 +1,7 @@
+<?php
+/** @var $block Vadimk\Monogo\Block\Catalog\Product\View\QRCode */
+$qrCode = $block->getQRCode();
+?>
+<?php if ($qrCode): ?>
+    <img src="<?php echo $qrCode ?>" />
+<?php endif; ?>
